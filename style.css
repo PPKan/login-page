@@ -1,0 +1,99 @@
+body {
+    background: #eceef1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 100vh;
+}
+
+a, a:link, a:active, a:visited, body, button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a, a:link, a:active, a:visited {
+    color: #0077C5;
+}
+
+button {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+}
+
+/* header: .questions .have-account .forgot .sign-in */
+header {
+    height: 3em;
+    /* background: red; */
+    display: flex;
+    padding: 0.5em 1em 0.5em 1em;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5em;
+}
+
+header .questions {
+    display: flex;
+    flex-direction: column;
+}
+
+header .questions .have-account {
+    font-size: 12px;
+}
+
+header .sign-in {
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+}
+
+/* Body */
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .logo {
+    font-size: 3rem;
+    color: slategray;
+}
+
+.main .subtitle {
+    font-size: 1rem;
+    color: slategray;
+}
+
+.main .form-area {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid slategray;
+    border-radius: 2px;
+    height: 600px;
+    width: 380px;
+    gap: 1rem;
+    background: white;
+    justify-content: center;
+}
+
+.main .form-area .title {
+    font-size: 24px;
+    color: #393A3D;
+    text-align: center;
+}
+
+.main .form-area .learn-more {
+    font-size: 14px;
+    font-weight: 300;
+    color: #393A3D;
+    text-align: center;
+}
