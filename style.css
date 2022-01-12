@@ -23,11 +23,12 @@ button {
     border-radius: 4px;
     border: 1px solid #4c4c4c;
     color: white;
+    cursor: pointer;
 }
 
 /* header: .questions .have-account .forgot .sign-in */
 header {
-    height: 3em;
+    height: 2em;
     /* background: red; */
     display: flex;
     padding: 0.5em 1em 0.5em 1em;
@@ -72,13 +73,14 @@ header .sign-in {
 }
 
 .main .form-area {
+    margin-top: 1rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 30px;
     border: 1px solid slategray;
     border-radius: 2px;
-    height: 600px;
+    height: 700px;
     width: 380px;
     gap: 1rem;
     background: white;
@@ -96,4 +98,94 @@ header .sign-in {
     font-weight: 300;
     color: #393A3D;
     text-align: center;
+}
+
+.info {
+    color: #404040;
+    font-size: 14px;
+}
+
+.phone-info {
+    color: #404040;
+    font-size: 10px;
+}
+
+.form-area input {
+    box-sizing: border-box;
+    width: 320px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #d8d8d8;
+    color: #000000;
+    outline: none;
+    font-size: 1.2em;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 1.3em;
+    min-height: 34px;
+}
+
+.create-account {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    width: 100%;
+    min-height: 44px;
+    font-size: 1.5rem;
+}
+
+.agree {
+    font-style: italic;
+    font-size: 12px;
+    color: #757575;
+}
+
+.update-date {
+    font-weight: bold;
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    font-style: italic;
+}
+
+.recaptha {
+    margin: 32px -30px -39px -30px;
+    padding: 16px;
+    text-align: center;
+    color: #8D9096;
+    background: #eceef1;
+    font-size: 11px;
+}
+
+/* footer */
+
+.privacy {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    color: #505050;
+}
+
+.rights {
+    color: #505050;
+    width: 60%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer {
+    height: 3rem;
+    background: white;
+    padding: 1rem;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+footer a, footer a:link, footer a:active, footer a:visited {
+    font-size: 1rem;
 }
